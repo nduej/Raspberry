@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+*{
+    font-family: 'Rubik';
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+#main{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.logo{
+    width: 165px;
+    margin-bottom: 5px;
+    animation: shake 0.5s ease infinite alternate;
+}
+
+
+@keyframes shake {
+    from{
+        transform: rotateZ(0deg);
+    }
+
+    to{
+        transform: rotateZ(10deg);
+    }
+}
+
+.h1{
+    display: block;
+    font-weight: bold;
+    font-size: 80px;
+    padding: 20px 20px 0px;
+}
+
+.special-word{
+    color: #c10208;
+}
+
+.hero-explanation{
+    display: inline-block;
+    padding: 18px;
+    font-family: 'Product Sans' Arial, Helvetica, sans-serif !important;
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    color: #454545;
+    line-height: 30px;
+}
+
+.docs-btn{
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #c10208;
+    font-size: 18px;
+    border-radius: 7px;
+    outline: none !important;
+    color: #fff;
+    width: 150px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    opacity: 0.95;
+    margin-top: 20px;
+}
+
+.github-btn{
+    display: inline-block;
+    background-color: #212121;
+    padding: 15px 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    outline: none !important;
+    color: #fff;
+    width: 150px;
+    text-decoration: none;
+    transition: 0.3s ease all;
+}
+.docs-btn:hover{
+    opacity: 1;
+}
+.quick-links{
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.quick-links a{
+    padding: 0px 12px;
+    text-decoration: none;
+    color: #212121;
+    opacity: 0.9;
+    transition: 0.3s ease all;
+}
+
+.quick-links a:hover{
+    text-decoration: underline;
+    opacity: 1;
+    transition: 0.3s ease all;
+}
+
+.fa-arrow-right{
+    margin-left: 5px;
+}

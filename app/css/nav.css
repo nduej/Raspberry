@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.developer-logo{
+    width: 40px;
+    padding: 0px 15px;
+}
+
+.nav-content{
+    display: flex;
+    column-gap: 15px;
+}
+.nav-links{
+    display: inline-block;
+    width: fit-content;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.nav-links a{
+    padding: 5px 15px;
+    color: #ccc !important;
+}
+
+.nav-links a i{
+    font-size: 20px;
+    transition: 0.3s ease all;
+}
+
+.nav-links a:hover .fa-github{
+    color: #212121 !important;
+}
+
+.nav-links a:hover .fa-twitter{
+    color: #1c99ee !important;
+}
+
+.nav-links a:hover .fa-discord{
+    color: #738adb !important;
+}
+
+.nav-links a:hover .fa-youtube{
+    color: #ff0000 !important;
+}
+
+
+
+.sponsor{
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #212121 !important;
+    transition: 0.3s ease all;
+}
+
+.sponsor:hover{
+    background-color: #ddd;
+}
+
+.sponsor i{
+    color: #ff6347;
+    margin-right: 5px;
+    transition: 0.3s ease all;
+}
+
+.sponsor .sponsor-text{
+    font-size: 16px;
+}

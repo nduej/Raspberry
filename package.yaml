@@ -1,0 +1,11 @@
+name: Raspberry
+description: A PHP Web Application Development Framework
+version: 1.0.0+0
+environment:
+  sdk: '>=1.0.0'
+
+dependencies:
+  webUi: '>1.0.0'
+
+dev_dependencies:
+  webshipper: '>1.0.0'
